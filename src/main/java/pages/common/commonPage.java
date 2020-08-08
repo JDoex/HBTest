@@ -58,8 +58,8 @@ public class commonPage extends BasePage {
         return itemCount;
     }
 
-    public void hoverMyAccount(){
-        hoverOver(myAccount);
+    public void clickMyAccount(){
+        click(myAccount);
     }
 
     public void clickMyOrders(){

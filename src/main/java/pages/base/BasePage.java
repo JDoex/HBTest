@@ -1,19 +1,19 @@
 package pages.base;
+
 import helpers.js.JSUtil;
 import helpers.js.JSWaiter;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.firefox.FirefoxProfile;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import selenium.driverSelect;
+import utils.random.RandomGen;
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 
 public class BasePage {
@@ -26,7 +26,6 @@ public class BasePage {
     protected WebDriverWait wait;
     protected JSUtil jsUtil;
 
-
     public BasePage(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, TIMEOUT, POLLING);
@@ -36,7 +35,6 @@ public class BasePage {
     protected String getCurrentUrl() {
         return driver.getCurrentUrl();
     }
-
 
     protected List<WebElement> waitVisibility(By elementBy) {
         return wait
@@ -64,10 +62,10 @@ public class BasePage {
         element.click();
     }
 
-    public void jsClick(By element){
+    public void jsClick(By element) {
         WebElement webElement = driver.findElement(element);
 
-        JavascriptExecutor executor = (JavascriptExecutor)driver;
+        JavascriptExecutor executor = (JavascriptExecutor) driver;
 
         executor.executeScript("arguments[0].click();", webElement);
 
@@ -77,8 +75,6 @@ public class BasePage {
         waitPresence(elementBy);
         driver.findElement(elementBy).sendKeys(Keys.SPACE);
     }
-
-
 
     protected void waitClickable(WebElement element) {
         wait.ignoring(StaleElementReferenceException.class)
@@ -94,12 +90,10 @@ public class BasePage {
     protected void writeText(By elementBy, String text) {
         waitPresence(elementBy);
 
-                driver.findElement(elementBy).click();
-                driver.findElement(elementBy).clear();
-                driver.findElement(elementBy).sendKeys(text);
+        driver.findElement(elementBy).click();
+        driver.findElement(elementBy).clear();
+        driver.findElement(elementBy).sendKeys(text);
     }
-
-
 
     protected List<WebElement> waitPresence(By elementBy) {
 
@@ -108,7 +102,7 @@ public class BasePage {
                 .until(ExpectedConditions.presenceOfAllElementsLocatedBy(elementBy));
     }
 
-    public void waitPageStable(){
+    public void waitPageStable() {
         JSWaiter.builder().build().waitAllRequest();
     }
 
@@ -116,6 +110,17 @@ public class BasePage {
         waitPageStable();
         String text = driver.findElement(elementBy).getText().trim();
         return text;
+    }
+
+    public void takeScreenshot(String screenshotName) {
+        if (driver instanceof TakesScreenshot) {
+            File tempFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            try {
+                FileUtils.copyFile(tempFile, new File("screenshots/" + screenshotName + ".png"));
+            } catch (IOException e) {
+                // TODO handle exception
+            }
+        }
     }
 
 }

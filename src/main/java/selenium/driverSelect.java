@@ -8,6 +8,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.events.EventFiringWebDriver;
 
 import java.net.URL;
+import java.util.Locale;
 
 public class driverSelect {
 
@@ -16,10 +17,10 @@ public class driverSelect {
     private static String baseUrl = System.getProperty("baseUrl");
     //Downloads the latest version of the desired driver.
     public static void setUpDriver(){
-
+        Locale.setDefault(new Locale("en","US"));
         if ("chrome".equals(browser)) {
             WebDriverManager.chromedriver().clearPreferences().clearCache();
-            WebDriverManager.chromedriver().version("81.0.4044.138").setup();
+            WebDriverManager.chromedriver().setup();
         }else if ("firefox".equals(browser)) {
             WebDriverManager.firefoxdriver().forceDownload().clearPreferences().clearCache();
             WebDriverManager.firefoxdriver().setup();

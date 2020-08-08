@@ -26,7 +26,7 @@ public class BaseTests {
 
     @BeforeSuite
     public void beforeSuite() {
-        killChromeDrivers();
+        killDrivers();
         driverSelect driverSelect = new driverSelect();
         driverSelect.setUpDriver();
     }
@@ -54,8 +54,8 @@ public class BaseTests {
     @AfterClass
     public void tearDown(ITestContext testContext) throws Exception {
 
-//        driver.close();
-//        driver.quit();
+        driver.close();
+        driver.quit();
         MDC.remove("fileName");
     }
 
@@ -67,12 +67,13 @@ public class BaseTests {
     }
 
 
-    private void killChromeDrivers() {
+    private void killDrivers() {
         String os = System.getProperty("os.name").toLowerCase();
         String cmd = "";
         try {
             if (os.contains("windows")) {
                 cmd = "taskkill /F /IM chromedriver.exe /T";
+                cmd = "taskkill /F /IM geckodriver.exe /T";
             } else if (os.contains("linux")) {
                 cmd = "pkill chrome";
             }

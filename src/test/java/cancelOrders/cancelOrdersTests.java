@@ -22,7 +22,7 @@ public class cancelOrdersTests extends BaseTests {
         commonPage.waitPage();
 
         //Siparişlerim sayfasına girilir.
-        commonPage.hoverMyAccount();
+        commonPage.clickMyAccount();
         commonPage.clickMyOrders();
 
         //Sipariş seçilerek iptal edilir.

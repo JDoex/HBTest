@@ -35,7 +35,7 @@ public class buyABookTests extends BaseTests {
         paymentInfoPage = new paymentInfoPage(driver);
         orderSummaryPage = new orderSummaryPage(driver);
 
-        commonPage.verifyString("Türkiye'nin En Büyük Online Alışveriş Sitesi Hepsiburada.com", driver.getTitle());
+        commonPage.verifyString("tTürkiye'nin En Büyük Online Alışveriş Sitesi Hepsiburada.com", driver.getTitle());
 
         //wwww.hepsiburada.com adresine login olunur.
         commonPage.hoverLoginButton();
