@@ -19,7 +19,7 @@ public class driverSelect {
 
         if ("chrome".equals(browser)) {
             WebDriverManager.chromedriver().clearPreferences().clearCache();
-            WebDriverManager.chromedriver().setup();
+            WebDriverManager.chromedriver().version("76.0.3809.126").setup();
         }else if ("firefox".equals(browser)) {
             WebDriverManager.firefoxdriver().forceDownload().clearPreferences().clearCache();
             WebDriverManager.firefoxdriver().setup();
