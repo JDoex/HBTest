@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="1" parallel="classes" name="HBTests(failed)" verbose="0">
+    <classes>
+      <class name="addItemToCart.addItemToCart">
+        <methods>
+          <include name="buyABookWithMoneyTransfer"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="beforeSuite"/>
+          <include name="beforeEachMethod"/>
+        </methods>
+      </class> <!-- addItemToCart.addItemToCart -->
+      <class name="login.loginTests">
+        <methods>
+          <include name="loginPage"/>
+          <include name="tearDown"/>
+          <include name="afterSuite"/>
+          <include name="setUp"/>
+          <include name="beforeSuite"/>
+          <include name="beforeEachMethod"/>
+        </methods>
+      </class> <!-- login.loginTests -->
+    </classes>
+  </test> <!-- HBTests(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

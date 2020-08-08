@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 49.498 s <<< FAILURE! - in TestSuite
+login.loginTests.loginPage  Time elapsed: 0.037 s  <<< FAILURE!
+java.lang.NullPointerException
+	at login.loginTests.loginPage(loginTests.java:23)
+
+addItemToCart.addItemToCart.buyABookWithMoneyTransfer  Time elapsed: 6.921 s  <<< FAILURE!
+java.lang.AssertionError: Text  Expected: is "Üye Giriş Sayfası & Üye Ol - Hepsiburada" but: was "Türkiye'nin En Büyük Online Alışveriş Sitesi Hepsiburada.com"
+	at addItemToCart.addItemToCart.buyABookWithMoneyTransfer(addItemToCart.java:40)
+

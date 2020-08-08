@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" thread-count="1">
+    <listeners>
+
+    </listeners>
+    <test verbose="10" preserve-order="true" name="HBTests">
+        <classes>
+            <class name="buyABook.buyABookTests"/>
+            <class name="cancelOrders.cancelOrdersTests"/>
+        </classes>
+    </test>
+</suite>

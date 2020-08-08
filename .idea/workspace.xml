@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bb8a72e-23d0-44a2-ad48-d9c38a9a2347" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fj3T2qNtnXTr9mFKs2nhePmd2x" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/helpers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils.random.matcher" />
+      <recent name="utils.random" />
+      <recent name="pages.base.framework" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Git\personal\HBTest\src\main\java\helpers" />
+      <recent name="C:\Git\personal\HBTest\src\test\java\base" />
+      <recent name="C:\Git\personal\HBTest\src\main\java\pages\base" />
+      <recent name="C:\Git\personal\HBTest" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Git/personal/HBTest/testng.xml">
+    <configuration name="C:/Git/personal/HBTest/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HBTest" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="buyABookTests.buyABookWithMoneyTransfer (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HBTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="buyABook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="PACKAGE_NAME" value="buyABook" />
+      <option name="MAIN_CLASS_NAME" value="buyABook.buyABookTests" />
+      <option name="METHOD_NAME" value="buyABookWithMoneyTransfer" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="buyABookTests.buyABookWithMoneyTransfer" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HBTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="buyABook.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="buyABook" />
+      <option name="MAIN_CLASS_NAME" value="buyABook.buyABookTests" />
+      <option name="METHOD_NAME" value="buyABookWithMoneyTransfer" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cancelOrdersTests.cancelOrder" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HBTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cancelOrders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cancelOrders" />
+      <option name="MAIN_CLASS_NAME" value="cancelOrders.cancelOrdersTests" />
+      <option name="METHOD_NAME" value="cancelOrder" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="cancelOrdersTests.refundABook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="HBTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cancelOrders.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="refund" />
+      <option name="MAIN_CLASS_NAME" value="cancelOrders.cancelOrdersTests" />
+      <option name="METHOD_NAME" value="refundABook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Git/personal/HBTest/testng.xml" />
+        <item itemvalue="TestNG.cancelOrdersTests.cancelOrder" />
+        <item itemvalue="TestNG.buyABookTests.buyABookWithMoneyTransfer" />
+        <item itemvalue="TestNG.buyABookTests.buyABookWithMoneyTransfer (1)" />
+        <item itemvalue="TestNG.cancelOrdersTests.refundABook" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bb8a72e-23d0-44a2-ad48-d9c38a9a2347" name="Default Changelist" comment="" />
+      <created>1596717678339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596717678339</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/buyABook/buyABookTests.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/orders/ordersPage.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
