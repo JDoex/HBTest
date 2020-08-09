@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bb8a72e-23d0-44a2-ad48-d9c38a9a2347" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/215.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/252.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/637.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/781.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/814.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/framework/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/framework/listeners/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/listeners/TestListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/buyABook/buyABookTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/buyABook/buyABookTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cancelOrders/cancelOrdersTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cancelOrders/cancelOrdersTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/framework/BaseTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/base/framework/listeners/TestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/buyABook/buyABookTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/buyABook/buyABookTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cancelOrders/cancelOrdersTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/cancelOrders/cancelOrdersTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
