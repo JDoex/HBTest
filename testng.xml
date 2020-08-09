@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite" thread-count="1">
     <listeners>
-<!--        <listener class-name="base.framework.listeners.TestListener"/>-->
+        <listener class-name="base.listeners.TestListener"/>
     </listeners>
     <test verbose="10" preserve-order="true" name="HBTests">
         <classes>

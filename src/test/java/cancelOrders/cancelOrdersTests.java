@@ -1,6 +1,6 @@
 package cancelOrders;
 
-import base.framework.BaseTests;
+import base.BaseTests;
 import org.testng.annotations.Test;
 import pages.orders.ordersPage;
 

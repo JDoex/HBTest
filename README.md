@@ -9,10 +9,16 @@
 **Ön Koşullar**
 * Proje çalıştırılmadan önce pom.xml içerisindeki dosyalar import edilmelidir.
 * Projeyi çalıştırmak için testng.xml dosyasını Run etmek yeterli olacaktır.
-* Proje ilk çalıştığında gerekli web driverları kendisi yükleyecektir bu nedenle 
-ilk çalışma süresi uzun olabilir.
+  
+  **Not:** Proje ilk kez çalıştırılıyorsa gerekli webdriverları yükleyeceğinden çalışma 
+  süresi normalden uzun olabilir.
 
 **Browser Seçimi**
-* pom.xml dosyasından browser ayarları isteğe göre "chrome" ya da "firefox" olarak kullanılabilir. 
+* pom.xml dosyasından browser tagı değiştirilerek istenen browserda işlem yapılabilir.
+* Desteklenen browserlar:
+    * Chrome
+    * Firefox
 
+**Ekran Görüntüsü Alma**
+* Test sırasında beklenen sonuçlar alınamadığında ekran görüntüsü alınır.
 
