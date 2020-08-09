@@ -1,7 +1,8 @@
-# **Read Me**
 
-**HepsiBurada Kitaplar Kategorisi İçin Test Otomasyonu**
+# **HepsiBurada Kitaplar Kategorisi İçin Test Otomasyonu**
 
+**Proje Hakkında**
+* Proje Selenium (Java) ile yazılmıştır.
 * Otomasyon, kitaplar kategorisinden çok satan kitabı havale 
 ödeme yöntemi ile satın alma ve satın alma işleminin iptali senaryosunu gerçekleştirmeyi amaçlar.
 
