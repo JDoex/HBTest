@@ -10,6 +10,7 @@
 **Ön Koşullar**
 * Proje çalıştırılmadan önce pom.xml içerisindeki dosyalar import edilmelidir.
 * Projeyi çalıştırmak için testng.xml dosyasını Run etmek yeterli olacaktır.
+* Proje çalışmadan önce sepet boş olmalıdır.
   
   **Not:** Proje ilk kez çalıştırılıyorsa gerekli webdriverları yükleyeceğinden çalışma 
   süresi normalden uzun olabilir.
